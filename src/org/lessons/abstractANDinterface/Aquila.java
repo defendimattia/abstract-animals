@@ -1,5 +1,5 @@
 package org.lessons.abstractANDinterface;
 
-public abstract class Animale {
-    
+public class Aquila extends Animale{
+
 }
