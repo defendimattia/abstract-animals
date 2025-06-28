@@ -1,6 +1,11 @@
 package org.lessons.abstractANDinterface;
+import org.lessons.abstractANDinterface.interfaces.INuotante;
 
-public class Delfino extends Animale {
+public class Delfino extends Animale implements INuotante {
+
+    public void nuota() {
+        System.out.println("Sto nuotando!!!");
+    }
 
     @Override
     protected void verso() {
