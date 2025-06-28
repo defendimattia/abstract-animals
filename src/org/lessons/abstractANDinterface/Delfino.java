@@ -1,7 +1,7 @@
 package org.lessons.abstractANDinterface;
 
-public class Delfino extends Animale{
-    
+public class Delfino extends Animale {
+
     @Override
     protected void verso() {
         System.out.println("Click-click!");
@@ -9,6 +9,7 @@ public class Delfino extends Animale{
 
     @Override
     protected void mangia() {
-        System.out.println("Il delfino mangia pesce");    };
+        System.out.println("Il delfino mangia pesce");
+    };
 
 }
