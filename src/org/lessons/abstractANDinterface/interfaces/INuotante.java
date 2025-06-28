@@ -1,5 +1,5 @@
 package org.lessons.abstractANDinterface.interfaces;
 
-interface INuotante {
+public interface INuotante {
     void nuota();
 }

@@ -1,6 +1,12 @@
 package org.lessons.abstractANDinterface;
+import org.lessons.abstractANDinterface.interfaces.IVolante;
 
-public class Aquila extends Animale {
+public class Aquila extends Animale implements IVolante {
+
+    
+    public void vola(){
+        System.out.println("Sto volando!!!");
+    }
 
     @Override
     protected void verso() {

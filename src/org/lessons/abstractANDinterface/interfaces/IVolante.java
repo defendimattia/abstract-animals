@@ -1,5 +1,5 @@
 package org.lessons.abstractANDinterface.interfaces;
 
-interface IVolante {
+public interface IVolante {
     void vola();
 }
