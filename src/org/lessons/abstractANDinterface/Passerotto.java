@@ -3,6 +3,7 @@ import org.lessons.abstractANDinterface.interfaces.IVolante;
 
 public class Passerotto extends AbstractAnimale implements IVolante{
 
+    @Override
     public void vola() {
         System.out.println("Sto volando!!!");
     }

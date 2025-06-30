@@ -3,6 +3,7 @@ import org.lessons.abstractANDinterface.interfaces.INuotante;
 
 public class Delfino extends AbstractAnimale implements INuotante {
 
+    @Override
     public void nuota() {
         System.out.println("Sto nuotando!!!");
     }
