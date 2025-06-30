@@ -1,7 +1,7 @@
 package org.lessons.abstractANDinterface;
 import org.lessons.abstractANDinterface.interfaces.IVolante;
 
-public class Aquila extends Animale implements IVolante {
+public class Aquila extends AbstractAnimale implements IVolante {
 
     
     public void vola(){

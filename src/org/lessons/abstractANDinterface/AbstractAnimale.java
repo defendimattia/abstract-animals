@@ -1,6 +1,6 @@
 package org.lessons.abstractANDinterface;
 
-public abstract class Animale {
+public abstract class AbstractAnimale {
 
     protected void dormi() {
         System.out.println("Zzz");

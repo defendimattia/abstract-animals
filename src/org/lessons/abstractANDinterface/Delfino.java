@@ -1,7 +1,7 @@
 package org.lessons.abstractANDinterface;
 import org.lessons.abstractANDinterface.interfaces.INuotante;
 
-public class Delfino extends Animale implements INuotante {
+public class Delfino extends AbstractAnimale implements INuotante {
 
     public void nuota() {
         System.out.println("Sto nuotando!!!");

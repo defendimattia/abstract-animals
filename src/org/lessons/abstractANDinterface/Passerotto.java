@@ -1,7 +1,7 @@
 package org.lessons.abstractANDinterface;
 import org.lessons.abstractANDinterface.interfaces.IVolante;
 
-public class Passerotto extends Animale implements IVolante{
+public class Passerotto extends AbstractAnimale implements IVolante{
 
     public void vola() {
         System.out.println("Sto volando!!!");
